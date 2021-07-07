@@ -9,10 +9,18 @@ To simply the navigation code, below are examples of code for origin vs. destina
 ### Markdown: Destination
 In the destination markdown cell at the top, add an anchor tag (e.g. "Back to Top").  The unique ID for this anchor tag tells the notebook how to find this destination.
 
-**HTML for markdown:**
 ``` html
 <a id='back_to_top'></a>
 ```
 
 ### Markdown: Origin
-In the origin markdown cell, add two things.
+In the origin markdown cell, add two things.  
+1. Square brackets to display [text] 
+2. Parentheses with hashtag to point to destination anchor ID (#anchor_id)
+``` html
+[back to top](#back_to_top)
+```
+
+### Use cases:
+* Navigate from outline at top to specific section
+* Navigate from specific section back to outline at top
