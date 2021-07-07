@@ -11,9 +11,9 @@ In the destination markdown cell at the top, add an anchor tag (e.g. "Back to To
 
 **HTML for markdown**
 +
-``` html
+...............
 <a id='back_to_top'></a>
-```
+...............
 
 ### Markdown: Origin
 In the origin markdown cell, add two things.
