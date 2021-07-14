@@ -13,6 +13,11 @@ In the destination markdown cell at the top, add an anchor tag (e.g. "Back to To
 <a id='back_to_top'></a>
 ```
 
+Side note: in certain versions of Jupyter Notebook, using `name` works better than `id`.
+``` html
+<a name='back_to_top'></a>
+```
+
 ### Markdown: Origin
 In the origin markdown cell, add two things.  
 1. Square brackets to display [text] 
